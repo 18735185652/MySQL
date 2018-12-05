@@ -27,9 +27,13 @@ SELECT IFNULL(commission_pct,0) AS 奖金率,
 FROM
 	employees;
 	
+	
 #-------------------------------------------------------------------------------------------------
 
 SELECT 
 	CONCAT(`first_name`,",",`last_name`,",",`email`,",",IFNULL(commission_pct,0)) AS out_put
 FROM 
 	employees;
+	
+	
+	
