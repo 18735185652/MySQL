@@ -332,14 +332,14 @@ FROM
 
 #3.将员工的姓名按首字母排序，并写出姓名的长度(length)
 
-
 SELECT
-	`last_name`,
-	LENGTH(last_name) AS "length"
-FROM
+	LENGTH(last_name) AS 长度,
+	SUBSTR(last_name,1,1) AS 首字符,
+	last_name
+FROM 
 	employees
-ORDER BY 
-	SUBSTR(last_name,1) ASC;
+ORDER BY
+	首字符;
 
 	
 #4. 做一个查询，产生下面的结果
