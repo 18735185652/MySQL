@@ -347,6 +347,7 @@ ORDER BY
 /*
 <last_name> ears <salary> monthly but wants <salary*3>
 Dream Salary
+
 King earns 24000 monthly but wants 72000
 */
 
